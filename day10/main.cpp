@@ -9,7 +9,7 @@
 #include <algorithm>
 #include <map>
 using namespace std;
-// doskey run1=g++ day10.cpp -o day101 -std=c++17 $T day101
+// doskey run=g++ main.cpp -o main -std=c++17 $T main
 
 bool parseFile(string fileName, vector<int>& input)
 {
@@ -226,8 +226,8 @@ int main()
 {
 	int day = 10; 
 	
-	string inputFileName_example = "day"+to_string(day)+"_example.txt";
-	string inputFileName_real = "day"+to_string(day)+".txt";
+	string inputFileName_example = "input_example.txt";
+	string inputFileName_real = "input.txt";
 	string inputFileName = ""; 
 	int example = 0;
 	
